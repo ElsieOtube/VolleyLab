@@ -26,7 +26,8 @@
                 android:id="@+id/profileImageView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:scaleType="fitXY" />
+                android:scaleType="fitXY"
+                android:contentDescription="@string/profile_pic" />
 
             <TextView
                 android:id="@+id/usernameTextView"
@@ -58,7 +59,8 @@
             android:textStyle="italic"
             android:drawableStart="@drawable/ic_url_link"
             android:text=""
-            android:layout_marginBottom="30dp" />
+            android:layout_marginBottom="30dp"
+            android:drawableLeft="@drawable/ic_url_link" />
 
         <ImageButton
             android:id="@+id/shareProfile"
@@ -67,7 +69,8 @@
             android:layout_marginTop="40dp"
             android:background="#10C8CD"
             android:layout_centerInParent="true"
-            android:src="@drawable/ic_send" />
+            android:src="@drawable/ic_send"
+            android:contentDescription="@string/send_icon" />
 
     </RelativeLayout>
 

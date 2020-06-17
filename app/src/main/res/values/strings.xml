@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">VolleyLab</string>
+    <string name="profile_pic">profile pic</string>
+    <string name="send_icon">send icon</string>
 </resources>
